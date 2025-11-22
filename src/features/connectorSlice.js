@@ -1,4 +1,4 @@
-// src/features/connectorSlice.js
+// src/feature/connectorSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
