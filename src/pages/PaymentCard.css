@@ -1,0 +1,378 @@
+.cardParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.cardContainer-2 {
+    background-color: rgba(240, 240, 240, 1);
+}
+
+.PaymentHeader {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.cardContainer {
+    width: 63%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 31px;
+    justify-content: space-between;
+
+}
+
+.paymentLogo {
+    width: 33px;
+    height: 32px;
+    padding: 4px 0px 4px 0px;
+    gap: 10px;
+
+
+}
+
+.LogoLocation {
+    width: 16px;
+    text-align: right;
+}
+
+.headerId {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.location {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+
+}
+
+.cardPic {
+    width: 23px;
+
+
+
+
+}
+
+.cardPic1 {
+    margin-left: 10px;
+    font-size: small;
+    width: 16px;
+    height: 17px;
+
+}
+
+.cardPic2 {
+    width: 16px;
+    height: 17px;
+
+
+}
+
+.cardPic3 {
+    width: 16px;
+    height: 17px;
+    padding: 0px;
+
+
+    
+
+
+}
+
+.cardPic4 {
+    width: 16px;
+    /* height: 17px; */
+
+}
+
+.Card {
+    font-family: Work Sans;
+    font-size: small;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+    width: 114%;
+    padding: 9px;
+
+
+}
+
+.imageContainer {
+    width: 40%;
+}
+
+.InputCard {
+    width: 100%;
+    height: 53px;
+    padding: 6px;
+}
+
+.InputCard input::placeholder {
+    padding: 10px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+
+
+}
+
+.Cardinput {
+    border: 1px solid rgba(213, 212, 220, 1);
+    color: #10002E;
+    padding: 12px;
+    height: 43px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.cardContainer-2 {
+    padding: 12px;
+}
+
+.Cardinput::placeholder {
+    font-weight: 400;
+}
+
+.InputCard3 {
+    width: 47%;
+    height: 43px;
+}
+
+.inputcard2 {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: space-between;
+    background-color: rgba(240, 240, 240, 1);
+    width: 97%;
+    gap:12px
+}
+
+.InputCard3 input {
+    width: 100%;
+    height: 43px;
+    border: 1px solid rgba(213, 212, 220, 1);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.InputCard3 input::placeholder {
+    padding: 12px;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+
+
+.textForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 102px;
+}
+
+.cardContainer-2 .text {
+    width: 90%;
+    margin: auto;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    padding: 11px;
+    padding-bottom: 4px;
+    border: 1px solid rgba(213, 212, 220, 1);
+    border-radius: 8px;
+}
+
+.emailInput input::placeholder {
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: left;
+}
+
+.inputPhone {
+    border: 1px solid rgba(213, 212, 220, 1);
+    margin-top: 14px;
+    border-radius: 8px;
+}
+
+form p {
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+
+}
+
+.notification {
+    margin-top: 10px;
+    margin-right: 11px;
+}
+
+.inputemail {
+    margin-top: -12px;
+
+}
+
+.cardBody{
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.cardBody .card{
+     background-color: rgba(245, 245, 245, 1);
+     
+}
+.textcheck label{
+    line-height: 1.25rem;
+    width: 90%;
+}
+.border-t{
+    margin-top: -10px;
+}
+
+.btn-slot{
+      /* height: 23px; */
+      padding: 0px 2px 2px 0px;
+      width: 63%;
+      color: rgba(255, 255, 255, 1);
+      /* width: 112px; */
+      height: 18px;
+      padding: 2px 4px 2px 4px;
+      gap: 2px;
+      border-radius: 8px 0px 0px 0px;
+}
+.btn-slot span{
+    color: rgba(251, 251, 252, 1);
+    width: 50%;
+    background-color: rgba(60, 185, 80, 1);
+    border-radius: 10px;
+}
+.price{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font: Work Sans;
+    line-height: 16px;
+    font-size: 14px;
+}
+.text-clark{
+    font-weight: 600;
+    font-size: 18px;
+    font: Work Sans;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+.text-email{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 1);
+}
+.text-number{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 2px;
+}
+.text-sms{
+font-family: Work Sans;
+font-size: 12px;
+font-weight: 400;
+/* line-height: 14px; */
+text-align: center;
+color: rgba(138, 147, 166, 1);
+
+}
+.payment-method{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.payment-method img{
+    width: 22px;
+    height: 16px;
+    margin-left: 2px;
+}
+
+.payment-method .payment-method-title{
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+color: rgba(0, 0, 0, 1);
+}
+.payment-method .payment-number{
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: right;
+margin-left: 2px;
+
+}
+.textcheck .text-2{
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+color: rgba(2, 80, 238, 1);
+
+}
+.textcheck span{
+font-family: Work Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+text-align: left;
+
+}
+
+.text-confirm{
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+text-align: center;
+color: rgba(43, 44, 48, 1);
+
+}
+
+.btn-text span{
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+
+}
+.payment-info{
+    margin-top: 10px;
+}
+.arrow{
+    font-size: 2rem;
+    line-height: 1;
+  }
